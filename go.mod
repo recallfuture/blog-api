@@ -4,7 +4,6 @@ go 1.16
 
 require (
 	github.com/99designs/gqlgen v0.14.0
-	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/dave/dst v0.26.2
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/gin-contrib/pprof v1.3.0
@@ -19,13 +18,12 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.1
 	github.com/rs/cors v1.8.0
-	github.com/shirou/gopsutil v3.21.10+incompatible
+	github.com/shirou/gopsutil/v3 v3.22.6
 	github.com/speps/go-hashids v1.0.0
 	github.com/spf13/cast v1.4.1
 	github.com/spf13/viper v1.9.0
 	github.com/swaggo/gin-swagger v1.3.3
 	github.com/swaggo/swag v1.7.4
-	github.com/tklauser/go-sysconf v0.3.9 // indirect
 	github.com/vektah/gqlparser/v2 v2.2.0
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.19.1
