@@ -1,9 +1,9 @@
 package admin
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/password"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/admin"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/pkg/password"
+	"github.com/recallfuture/blog-api/internal/repository/mysql/admin"
 )
 
 type CreateAdminData struct {

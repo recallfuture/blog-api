@@ -1,17 +1,17 @@
 package router
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/render/admin"
-	"github.com/xinliangnote/go-gin-api/internal/render/authorized"
-	"github.com/xinliangnote/go-gin-api/internal/render/config"
-	"github.com/xinliangnote/go-gin-api/internal/render/cron"
-	"github.com/xinliangnote/go-gin-api/internal/render/dashboard"
-	"github.com/xinliangnote/go-gin-api/internal/render/generator"
-	"github.com/xinliangnote/go-gin-api/internal/render/index"
-	"github.com/xinliangnote/go-gin-api/internal/render/install"
-	"github.com/xinliangnote/go-gin-api/internal/render/tool"
-	"github.com/xinliangnote/go-gin-api/internal/render/upgrade"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/render/admin"
+	"github.com/recallfuture/blog-api/internal/render/authorized"
+	"github.com/recallfuture/blog-api/internal/render/config"
+	"github.com/recallfuture/blog-api/internal/render/cron"
+	"github.com/recallfuture/blog-api/internal/render/dashboard"
+	generator_handler "github.com/recallfuture/blog-api/internal/render/generator"
+	"github.com/recallfuture/blog-api/internal/render/index"
+	"github.com/recallfuture/blog-api/internal/render/install"
+	"github.com/recallfuture/blog-api/internal/render/tool"
+	"github.com/recallfuture/blog-api/internal/render/upgrade"
 )
 
 func setRenderRouter(r *resource) {

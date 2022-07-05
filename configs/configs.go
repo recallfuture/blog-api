@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/pkg/env"
-	"github.com/xinliangnote/go-gin-api/pkg/file"
+	"github.com/recallfuture/blog-api/pkg/env"
+	"github.com/recallfuture/blog-api/pkg/file"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"

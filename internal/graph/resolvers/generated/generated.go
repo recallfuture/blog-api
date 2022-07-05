@@ -5,8 +5,8 @@ package resolvers
 import (
 	"context"
 
-	"github.com/xinliangnote/go-gin-api/internal/graph/generated"
-	"github.com/xinliangnote/go-gin-api/internal/graph/model"
+	"github.com/recallfuture/blog-api/internal/graph/generated"
+	"github.com/recallfuture/blog-api/internal/graph/model"
 )
 
 type Resolver struct{}

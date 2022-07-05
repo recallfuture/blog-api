@@ -3,7 +3,7 @@ package code
 import (
 	_ "embed"
 
-	"github.com/xinliangnote/go-gin-api/configs"
+	"github.com/recallfuture/blog-api/configs"
 )
 
 //go:embed code.go

@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/pkg/errors"
-	"github.com/xinliangnote/go-gin-api/pkg/signature"
+	"github.com/recallfuture/blog-api/configs"
+	"github.com/recallfuture/blog-api/internal/code"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/pkg/errors"
+	"github.com/recallfuture/blog-api/pkg/signature"
 )
 
 type signRequest struct {

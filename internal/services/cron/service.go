@@ -1,11 +1,11 @@
 package cron
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/repository/cron"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/cron_task"
-	"github.com/xinliangnote/go-gin-api/internal/repository/redis"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/repository/cron"
+	"github.com/recallfuture/blog-api/internal/repository/mysql"
+	"github.com/recallfuture/blog-api/internal/repository/mysql/cron_task"
+	"github.com/recallfuture/blog-api/internal/repository/redis"
 )
 
 var _ Service = (*service)(nil)

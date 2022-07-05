@@ -1,12 +1,12 @@
 package authorized
 
 import (
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql"
-	"github.com/xinliangnote/go-gin-api/internal/repository/redis"
-	"github.com/xinliangnote/go-gin-api/internal/services/authorized"
-	"github.com/xinliangnote/go-gin-api/pkg/hash"
+	"github.com/recallfuture/blog-api/configs"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/repository/mysql"
+	"github.com/recallfuture/blog-api/internal/repository/redis"
+	"github.com/recallfuture/blog-api/internal/services/authorized"
+	"github.com/recallfuture/blog-api/pkg/hash"
 
 	"go.uber.org/zap"
 )

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xinliangnote/go-gin-api/internal/proposal"
-	"github.com/xinliangnote/go-gin-api/pkg/trace"
+	"github.com/recallfuture/blog-api/internal/proposal"
+	"github.com/recallfuture/blog-api/pkg/trace"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

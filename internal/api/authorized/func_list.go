@@ -3,10 +3,10 @@ package authorized
 import (
 	"net/http"
 
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/services/authorized"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"github.com/recallfuture/blog-api/internal/code"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/services/authorized"
+	"github.com/recallfuture/blog-api/pkg/timeutil"
 
 	"github.com/spf13/cast"
 )

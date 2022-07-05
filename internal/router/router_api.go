@@ -1,14 +1,14 @@
 package router
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/api/admin"
-	"github.com/xinliangnote/go-gin-api/internal/api/authorized"
-	"github.com/xinliangnote/go-gin-api/internal/api/config"
-	"github.com/xinliangnote/go-gin-api/internal/api/cron"
-	"github.com/xinliangnote/go-gin-api/internal/api/helper"
-	"github.com/xinliangnote/go-gin-api/internal/api/menu"
-	"github.com/xinliangnote/go-gin-api/internal/api/tool"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/api/admin"
+	"github.com/recallfuture/blog-api/internal/api/authorized"
+	"github.com/recallfuture/blog-api/internal/api/config"
+	"github.com/recallfuture/blog-api/internal/api/cron"
+	"github.com/recallfuture/blog-api/internal/api/helper"
+	"github.com/recallfuture/blog-api/internal/api/menu"
+	"github.com/recallfuture/blog-api/internal/api/tool"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
 )
 
 func setApiRouter(r *resource) {

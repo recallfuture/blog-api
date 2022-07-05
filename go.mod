@@ -1,4 +1,4 @@
-module github.com/xinliangnote/go-gin-api
+module github.com/recallfuture/blog-api
 
 go 1.16
 

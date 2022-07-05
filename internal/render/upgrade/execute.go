@@ -3,10 +3,10 @@ package upgrade
 import (
 	"net/http"
 
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/proposal/tablesqls"
-	"github.com/xinliangnote/go-gin-api/pkg/errors"
+	"github.com/recallfuture/blog-api/internal/code"
+	"github.com/recallfuture/blog-api/internal/pkg/core"
+	"github.com/recallfuture/blog-api/internal/proposal/tablesqls"
+	"github.com/recallfuture/blog-api/pkg/errors"
 )
 
 type upgradeExecuteRequest struct {
