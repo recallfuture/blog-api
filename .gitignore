@@ -17,3 +17,7 @@ vendor/
 
 # docker container data
 data/
+
+.DS_Store
+logs/
+INSTALL.lock

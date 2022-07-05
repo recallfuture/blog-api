@@ -1,1 +1,22 @@
 
+[language]
+  local = "zh-cn"
+
+[mysql]
+
+  [mysql.read]
+    addr = "127.0.0.1:3306"
+    name = "blog"
+    pass = "blog"
+    user = "blog"
+
+  [mysql.write]
+    addr = "127.0.0.1:3306"
+    name = "blog"
+    pass = "blog"
+    user = "blog"
+
+[redis]
+  addr = "127.0.0.1:6379"
+  db = "0"
+  pass = ""
